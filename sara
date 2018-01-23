@@ -1,0 +1,34 @@
+x-to delete the unwanted character 
+u-to undo the last the command and U to undo the whole line
+CTRL-R to redo
+A-to append text at the end
+:wq-to save and exit
+:q!-to trash all changes
+dw-move the cursor to the bbeginning of the word to delete thar word
+2w-to move the cursor two words forward
+3e-to move the cursor to the end of the third word forward
+0(zero)to move to the start of the line
+d2w-which deletes 2words
+p-puts previouslydeleted text after the cursor
+r-to replace the letter 
+ce-to change until the end of a word
+ce-deleted the word and places you in insert mode
+G-to move you to the bottom of the file
+gg-tomove you to the start of the file
+% to find a matching),],or}
+:s/old/new/g to substitute 'new' for'old'where g is globally
+? forward search
+:\to run the shell commands:w-TEST
+v-starts visual mode for selecting the lines and you can perform operation on that lik d delete
+:r-filename will insert the content into the current file
+R-to replace more than one character
+y-operator to copy text using v visual mode and p tp paste it
+yw-(copy)yanks one word
+o-opens a line below the cursor and start insert mode
+O-opens a line above the cursor
+a-inserts text after the end of line
+A-insert text after the end of a line
+e-command moves to the end of the word
+Y-operator yanks(copies)text,p puts(oastes)it
+R-enters relace mode until<ECS>is pressed
+ctrl-w to jump from one window to another
