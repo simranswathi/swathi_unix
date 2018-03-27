@@ -1,7 +1,7 @@
 AWK commands:-
 1. Write an awk command to delete all the blank lines from a files.
 
-$cat sowj.txt
+$cat swathi.txt
 Hi everyone
 this is unix and shell scripting lab
 
@@ -12,7 +12,7 @@ this is unix and shell scripting lab
 
 hi
 
-$ awk 'NF' sowj.txt
+$ awk 'NF' swathi.txt
 Hi everyone
 this is unix and shell scripting lab
 hi
